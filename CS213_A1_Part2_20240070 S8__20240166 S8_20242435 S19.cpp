@@ -97,11 +97,11 @@ Image Black_White(Image& image)
             unsigned int color = 0;
             if(avg >= 128)
             {
-                color = 0; 
+                color = 255; 
             }
             else
             {
-                color = 255;
+                color = 0;
             }
             image(i, j, 0) = color;
             image(i, j, 1) = color;
